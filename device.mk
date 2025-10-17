@@ -167,6 +167,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.demura-service
 
 
+# Doze
+PRODUCT_PACKAGES += \
+    NothingDoze
+
 # eUICC
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_JPN/android.hardware.telephony.euicc.xml \
