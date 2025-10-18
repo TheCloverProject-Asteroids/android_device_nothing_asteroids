@@ -100,7 +100,7 @@ on property:sys.boot_completed=1 && property:persist.sys.sltntc.enable=0
 
 on property:sys.boot_completed=1 && property:persist.sys.sltntc.enable=1
 	start sltntc
-    
+
 on property:vendor.nfc.config_file_name=*
     setprop persist.vendor.nfc.config_file_name ${vendor.nfc.config_file_name}
 
@@ -123,4 +123,3 @@ service sltntc /system_ext/bin/sltntc
     user system
     group system readproc root
     disabled
-
