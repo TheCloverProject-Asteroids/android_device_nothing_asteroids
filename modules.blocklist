@@ -13,7 +13,6 @@ blocklist fc0013
 blocklist fc2580
 blocklist ipclite_test
 blocklist it913x
-blocklist leds_qpnp_vibrator_ldo
 blocklist limits_stat
 blocklist limits_stress
 blocklist lkdtm

@@ -442,7 +442,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/clover/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
-    kernel/nothing/sm7635 \
+    kernel/nothing/asteroids \
     packages/apps/ParanoidGlyph \
     packages/apps/GlyphAdapter
 
