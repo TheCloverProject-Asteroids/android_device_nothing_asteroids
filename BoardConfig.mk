@@ -37,7 +37,7 @@ BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 WITH_AVB := true
 ifeq ($(WITH_AVB),true)
-BOARD_AVB_KEY_PATH := vendor/clover-priv/keys/avb.pk8
+BOARD_AVB_KEY_PATH := vendor/lineage-priv/keys/avb.pk8
 BOARD_AVB_ALGORITHM := SHA256_RSA4096
 else
 BOARD_AVB_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
@@ -183,7 +183,7 @@ TARGET_KERNEL_EXT_MODULES := \
 
 # Partitions
 ifneq ($(PRODUCT_RO_FILE_SYSTEM), erofs)
--include vendor/clover/config/BoardConfigReservedSize.mk
+-include vendor/lineage/config/BoardConfigReservedSize.mk
 endif
 
 BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := odm product system system_dlkm system_ext vendor vendor_dlkm
