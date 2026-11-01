@@ -149,7 +149,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 PRODUCT_PACKAGES += \
     IPACM_Filter_cfg.xml \
     IPACM_cfg.xml \
-    ipacm
+    ipacm \
+    librmnetctl
 
 # Device Extras, Assist Key, Doze & NothingNrEnabler
 PRODUCT_PACKAGES += \
