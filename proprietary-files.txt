@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from the Asteroids_C5.0-261023-2146 release for the Nothing Phone (3a).
+## are from the C5.0-261023-2146 release for the Nothing Phone (3a).
 
 # ADSPRPC
 vendor/bin/adsprpcd
@@ -17,6 +17,7 @@ vendor/lib/rfsa/adsp/libadsp_jpege_skel.so
 vendor/lib/rfsa/adsp/libarc_htp_driver_skel.so
 vendor/lib/rfsa/adsp/libbitml_nsp_skel.so
 vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
+vendor/lib/rfsa/adsp/libhdr_skel.so
 vendor/lib/rfsa/adsp/libhme_dsp_skel.so
 vendor/lib/rfsa/adsp/libmctfengine_skel.so
 vendor/lib/rfsa/adsp/libmlawbpostproc_dsp_skel.so
@@ -101,6 +102,13 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.7.8_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1
 vendor/etc/acdbdata/nn_ns_models/fai__2.9.0_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.9.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.9.2_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.0__eai_3.4_enpuv4.pmd
+vendor/etc/acdbdata/nn_ns_models/fai__4.40.2_1.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
+vendor/etc/acdbdata/nn_ns_models/fai__4.60.1.2_2.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
+vendor/etc/acdbdata/nn_ns_models/fai__4.60.1.3_1.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.18_enpuv4.pmd
+vendor/etc/acdbdata/nn_ns_models/fai__4.80.1.5_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
+vendor/etc/acdbdata/nn_ns_models/fai__4.80.1.5_1.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
+vendor/etc/acdbdata/nn_ns_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
+vendor/etc/acdbdata/nn_ns_models/fai__4.8.14_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__4.8.2_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__4.8.3_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd
@@ -570,6 +578,7 @@ vendor/lib64/camera/components/com.qti.node.swmctf.so
 vendor/lib64/camera/components/com.qti.node.swmfnr.so
 vendor/lib64/camera/components/com.qti.node.swmlremosaic.so
 vendor/lib64/camera/components/com.qti.node.swpdpc.so
+vendor/lib64/camera/components/com.qti.node.swpnc.so
 vendor/lib64/camera/components/com.qti.node.swpreprocess.so
 vendor/lib64/camera/components/com.qti.node.swregistration.so
 vendor/lib64/camera/components/com.qti.node.swvrt.so
@@ -674,6 +683,7 @@ vendor/lib64/hw/camera.qcom.milos.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.offline.so
 vendor/lib64/hw/com.qti.chi.override.so;DISABLE_DEPS
+vendor/lib64/hw/libproviderextension.so
 vendor/lib64/libQnnHtp.so
 vendor/lib64/libQnnSystem.so
 vendor/lib64/libaidenoiser.so
@@ -715,6 +725,7 @@ vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 vendor/lib64/libchifeature2.so;DISABLE_DEPS
 vendor/lib64/libchilog.so
+vendor/lib64/libcolorful.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libcommonchiutils.so
 vendor/lib64/libfastcvdsp_stub.so
@@ -738,6 +749,7 @@ vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
 vendor/lib64/libmmcamera_mfnr_t4.so
 vendor/lib64/libmmcamera_pdpc.so
+vendor/lib64/libmmcamera_pnc.so
 vendor/lib64/libmorpho_RapidEffect.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libnoteengine.so
@@ -761,6 +773,7 @@ vendor/lib64/libopestriping.so
 vendor/lib64/libos.so
 vendor/lib64/libpfr.so
 vendor/lib64/libportrait_repair_qnn.so
+vendor/lib64/libpnc_cl_program.bin
 vendor/lib64/libqll.so
 vendor/lib64/libqll10.so
 vendor/lib64/libqllengine.so
@@ -943,12 +956,12 @@ vendor/lib64/vendor.hardware.light-V1-ndk_platform.so
 # eUICC
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 
-# Face Unlock - from Asteroids_C5.0-260915-2123
-vendor/bin/hw/android.hardware.biometrics.face-service.noth|16c8c96cc286381852a1edb96f89b4b04813d86f
+# Face Unlock
+vendor/bin/hw/android.hardware.biometrics.face-service.noth
 vendor/etc/init/android.hardware.biometrics.face-service.noth.rc
 vendor/etc/vintf/manifest/android.hardware.biometrics.face-service.noth.xml
-vendor/lib64/libcamera2ndk_vendor.so:vendor/lib64/libcamera2ndk_vendor-v34.so;FIX_SONAME|20c579b98ab58776e7fe0a200a8e190f42014cc5
-vendor/lib64/libstfaceunlockppl.so|cc8cfa3e6c0eb8ab79eb79c6dc2541cf1bfec1b4
+vendor/lib64/libcamera2ndk_vendor.so:vendor/lib64/libcamera2ndk_vendor-v34.so;FIX_SONAME
+vendor/lib64/libstfaceunlockppl.so
 
 # FeliCa
 product/app/MobileFeliCaClient/MobileFeliCaClient.apk;PRESIGNED
@@ -1071,6 +1084,7 @@ system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so
 system_ext/lib64/lib-imsvtutils.so
 system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
+system_ext/lib64/libSurfaceUtil_jni.so;SYMLINK=/system_ext/priv-app/ims/lib/arm64/libSurfaceUtil_jni.so
 system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so
 system_ext/lib64/vendor.qti.ImsRtpService-V2-ndk.so
 system_ext/lib64/vendor.qti.ims.datachannelservice-V1-ndk.so
@@ -1674,7 +1688,7 @@ system_ext/lib64/libwfduibcsinkinterface.so
 system_ext/lib64/libwfduibcsrc.so
 system_ext/lib64/libwfduibcsrcinterface.so
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
-system_ext/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V2-ndk.so
+system_ext/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so
 system_ext/priv-app/WfdService/WfdService.apk
 
 # WFD
