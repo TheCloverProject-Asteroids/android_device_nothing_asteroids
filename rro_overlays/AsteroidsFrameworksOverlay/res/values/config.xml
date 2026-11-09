@@ -221,7 +221,7 @@
          when adapting to brighter or darker environments.  This parameter controls how quickly
          brightness changes occur in response to an observed change in light level that exceeds the
          hysteresis threshold. -->
-    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
 
     <!-- Timeout (in milliseconds) after which we remove the effects any user interactions might've
@@ -377,10 +377,10 @@
 
          Refer to autosuspend.h for details.
     -->
-    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
 
     <!-- Whether device supports double tap to wake -->
-    <bool name="config_supportDoubleTapWake">true</bool>
+    <bool name="config_supportDoubleTapWake">false</bool>
 
 
     <!-- Default value for fp screen off unlock toggle, it only works for the devices that support
@@ -405,7 +405,7 @@
     <bool name="config_smart_battery_available">true</bool>
     
     <!-- Flag indicating whether we should enable camera-based autorotate -->
-    <bool name="config_camera_autorotate">true</bool>
+    <bool name="config_camera_autorotate">false</bool>
     
     <!-- If this is true, the screen will fade off. -->
     <bool name="config_animateScreenLights">true</bool>
@@ -438,6 +438,27 @@
 
     <!-- Whether to allow window and transition animations in low power (battery saver) mode. -->
     <bool name="config_allowAnimationsInLowPowerMode">false</bool>
+
+    <!-- Screen brightness in doze state -->
+    <integer name="config_screenBrightnessDoze">17</integer>
+
+    <!-- Support long press power button when non-interactive -->
+    <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
+
+    <!-- Disable dreams by default to avoid keeping the CPU awake and heating up during charging -->
+    <bool name="config_dreamsEnabledByDefault">false</bool>
+
+    <!-- Device idle (Doze): exponential light doze backoff -->
+    <bool name="device_idle_light_idle_increase_linearly">false</bool>
+
+    <!-- Device idle (Doze) timeouts aligned with stock Nothing OS for aggressive sleep entry -->
+    <integer name="device_idle_light_max_idle_to_ms">900000</integer>
+    <integer name="device_idle_inactive_to_ms">15000</integer>
+    <integer name="device_idle_idle_after_inactive_to_ms">15000</integer>
+    <integer name="device_idle_sensing_to_ms">15000</integer>
+    <integer name="device_idle_locating_to_ms">15000</integer>
+    <integer name="device_idle_motion_inactive_to_ms">30000</integer>
+    <integer name="device_idle_idle_to_ms">3600000</integer>
 
 
      <!-- The amount to scale fullscreen snapshots for Overview and snapshot starting windows. -->
