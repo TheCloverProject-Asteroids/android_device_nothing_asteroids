@@ -27,4 +27,7 @@
 
     <!-- Vibration intensity sliders with low, medium and high levels -->
     <integer name="config_vibration_supported_intensity_levels">3</integer>
+
+    <!-- Fast charging threshold (14.9W in micro-watts) -->
+    <integer name="config_chargingFastThreshold">14900000</integer>
 </resources>
