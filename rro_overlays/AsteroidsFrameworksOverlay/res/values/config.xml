@@ -405,7 +405,7 @@
     <bool name="config_smart_battery_available">true</bool>
     
     <!-- Flag indicating whether we should enable camera-based autorotate -->
-    <bool name="config_camera_autorotate">true</bool>
+    <bool name="config_camera_autorotate">false</bool>
     
     <!-- If this is true, the screen will fade off. -->
     <bool name="config_animateScreenLights">true</bool>
