@@ -7,4 +7,7 @@
     <bool name="config_audioPanelOnLeftSide">true</bool>
     <!-- Whether volume dialog should use background blur -->
     <bool name="config_volumeDialogUseBackgroundBlur">true</bool>
+
+    <!-- Fast charging threshold (14.9W in micro-watts) -->
+    <integer name="config_chargingFastThreshold">14900000</integer>
 </resources>
