@@ -439,26 +439,14 @@
     <!-- Whether to allow window and transition animations in low power (battery saver) mode. -->
     <bool name="config_allowAnimationsInLowPowerMode">false</bool>
 
-    <!-- Fast charging threshold (14.9W in micro-watts) -->
-    <integer name="config_chargingFastThreshold">14900000</integer>
-
     <!-- Screen brightness in doze state -->
     <integer name="config_screenBrightnessDoze">17</integer>
-
-    <!-- Doze immediately upon screen off -->
-    <bool name="config_dozeAfterScreenOff">true</bool>
 
     <!-- Support long press power button when non-interactive -->
     <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
 
     <!-- Disable dreams by default to avoid keeping the CPU awake and heating up during charging -->
     <bool name="config_dreamsEnabledByDefault">false</bool>
-
-    <!-- Disable dual SoftAP concurrent mode to prevent RF chip thermal throttling -->
-    <bool name="config_wifi_dual_sap_mode_enabled">false</bool>
-
-    <!-- Hardware support for batched Wi-Fi scan results -->
-    <bool name="config_wifi_batched_scan_supported">true</bool>
 
     <!-- Device idle (Doze): exponential light doze backoff -->
     <bool name="device_idle_light_idle_increase_linearly">false</bool>
