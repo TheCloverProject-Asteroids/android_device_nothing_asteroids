@@ -376,9 +376,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
-PRODUCT_COPY_FILES += \
-    vendor/qcom/opensource/power/config/volcano/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
-
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
@@ -535,4 +532,8 @@ PRODUCT_PACKAGES += \
     libwifi-hal-qcom \
     wpa_supplicant \
     wpa_supplicant.conf
+
+# System properties
+PRODUCT_SYSTEM_PROPERTIES += \
+    charging_string.apply_v2=true
 
