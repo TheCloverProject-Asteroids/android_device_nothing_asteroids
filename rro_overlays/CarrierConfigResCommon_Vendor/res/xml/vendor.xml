@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carrier_config_list>
     <carrier_config>
+        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
+            <item value="-122" />
+            <item value="-115" />
+            <item value="-108" />
+            <item value="-98" />
+        </int-array>
         <boolean name="allow_adding_apns_bool" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
@@ -1909,6 +1915,12 @@
         <string name="carrier_name_string">RO Digi.Mobil</string>
     </carrier_config>
     <carrier_config cid="1961" name="Airtel">
+        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
+            <item value="-122" />
+            <item value="-115" />
+            <item value="-108" />
+            <item value="-98" />
+        </int-array>
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <string name="carrier_name_string">Airtel</string>
         <boolean name="editable_wfc_mode_bool" value="true" />
@@ -2007,6 +2019,12 @@
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
     </carrier_config>
     <carrier_config cid="2018" name="Reliance Jio">
+        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="4">
+            <item value="-122" />
+            <item value="-115" />
+            <item value="-108" />
+            <item value="-98" />
+        </int-array>
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <string name="carrier_name_string" />
