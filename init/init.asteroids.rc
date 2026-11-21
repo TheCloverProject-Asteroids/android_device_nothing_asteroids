@@ -139,6 +139,9 @@ on property:sys.touch.pocket_mode=*
     write /proc/touchpanel/pocket_mode ${sys.touch.pocket_mode}
 
 on property:vendor.all.modules.ready=1
+    chown system system /proc/touchpanel/gesture_mode
+    chmod 0660 /proc/touchpanel/gesture_mode
+    write /proc/touchpanel/gesture_mode 1
     chown system system /proc/touchpanel/fod_mode
     chown system system /proc/touchpanel/pocket_mode
     chmod 0660 /proc/touchpanel/pocket_mode
