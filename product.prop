@@ -40,3 +40,8 @@ persist.sys.sltntc.enable=1
 # Display
 ro.surface_flinger.enable_sdr_dimming=true
 
+# Dex2oat
+dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+dalvik.vm.boot-dex2oat-threads=8
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
+dalvik.vm.dex2oat-threads=4
