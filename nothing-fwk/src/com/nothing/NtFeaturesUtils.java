@@ -25,7 +25,7 @@ public class NtFeaturesUtils {
     public static final int NTF_DRAGONITE = 110;
     public static final int NTF_BACKGROUND_RES_LIMIT = 115;
 
-    private static final int MAX_FEATURES = 160;
+    private static final int MAX_FEATURES = 164;
 
     private static final BitSet sFeatures = new BitSet(MAX_FEATURES);
 
